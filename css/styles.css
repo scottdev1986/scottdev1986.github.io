@@ -3,13 +3,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
+    padding: 30px;
     background-color: #f8f9fa;
     font-size: large;
     font-family: Arial, sans-serif;
 }
-/* id selector ohio-flag */
-#ohio-flag {
+/* class selector ohio-flag */
+.ohio-flag {
     display: inline-block;
     width: 160px;
 }
@@ -55,6 +55,10 @@ aside {
 }
 /* id selector ohio-seal */
 #ohio-seal {
+    display: inline-block;
+    width: 30%;
+}
+#osu-logo {
     display: inline-block;
     width: 30%;
 }
