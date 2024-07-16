@@ -22,6 +22,8 @@
     <section>
         <article>
             <h2>Ohio State Facts</h2>
+            <h4>Want to know more about Ohio? <a href="https://ohio.gov/" target="_blank">Click here</a></h4>
+            <br>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit atque sed at dolores laborum, hic ex nisi quos, necessitatibus blanditiis unde, iusto accusantium voluptatem? A corrupti aliquam consequatur repellendus alias!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nisi molestiae quibusdam, dicta soluta harum deleniti ipsam voluptates quidem provident at repellat adipisci totam officiis alias hic officia necessitatibus facilis?</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo voluptate, voluptas ab doloremque pariatur, hic at laudantium animi aliquam ratione magni suscipit numquam omnis, asperiores saepe? Distinctio magnam quos numquam?</p>
@@ -35,6 +37,73 @@
             <img class="ohio-flag" src="./img/Ohio-circle-flag-cavalry-status-United-States-1902.png" alt="Ohio State Flag">
             <!-- https://www.ohiosos.gov/globalassets/publications/agency/flag.pdf -->
             <p>The Ohio state flag was adopted in 1902. The flag was designed by John Eisenmann.</p>
+
+            <!-- https://www.ohio-demographics.com/cities_by_population -->
+            <table>
+                <caption>Top 6 Ohio Cities</caption>
+                <thead>
+                    <tr>
+                        <th>City</th>
+                        <th>Population</th>
+                        <th>Incorporated</th>
+                        <th>Region</th>
+                        <th>Classification</th>
+                        <th>Average Income</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Columbus</td>
+                        <td>907,971 (2022)</td>
+                        <td>February 10, 1816</td>
+                        <td>Central Ohio</td>
+                        <td>Urban</td>
+                        <td>$62,994</td>
+                    </tr>
+                    <tr>
+                        <td>Cleveland</td>
+                        <td>372,624 (2022)</td>
+                        <td>1814</td>
+                        <td>Northeast Ohio</td>
+                        <td>Urban</td>
+                        <td>$30,907</td>
+                    </tr>
+                    <tr>
+                        <td>Cincinnati</td>
+                        <td>309,513 (2022)</td>
+                        <td>March 1, 1820</td>
+                        <td>Southwest Ohio</td>
+                        <td>Urban</td>
+                        <td>$49,191</td>
+                    </tr>
+                    <tr>
+                        <td>Toledo</td>
+                        <td>266,301 (2022)</td>
+                        <td>1837</td>
+                        <td>Northwest Ohio</td>
+                        <td>Urban</td>
+                        <td>$45,405</td>
+                    </tr>
+                    <tr>
+                        <td>Akron</td>
+                        <td>188,701 (2022)</td>
+                        <td>1825</td>
+                        <td>Northeast Ohio</td>
+                        <td>Urban</td>
+                        <td>$35,000</td>
+                    </tr>
+                    <tr>
+                        <td>Dayton</td>
+                        <td>135,512 (2022)</td>
+                        <td>1796</td>
+                        <td>Southwest Ohio</td>
+                        <td>Urban</td>
+                        <td>$32,000</td>
+                    </tr>
+                <tbody>
+
+                </tbody>
+            </table>
         </aside>
     </section>
 
@@ -43,9 +112,9 @@
         <p>Have a question about the great state of Ohio? Ask us here!</p>
         <form onsubmit="return validateEmail()">
             <label for="first-name">First Name:</label>
-            <input type="text" id="first-name" name="first-name">
+            <input type="text" id="first-name" name="first-name" placeholder="First Name">
             <label for="last-name">Last Name:</label>
-            <input type="text" id="last-name" name="last-name">
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="Email" required>
             <label for="confirm-email">Confirm Email:</label>
