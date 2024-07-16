@@ -39,6 +39,10 @@ footer {
     bottom: 0;
     width: 100%;
 }
+section {
+    display: block;
+    clear: both;
+}
 /* article element */
 article {
     padding-left: 10%;
@@ -65,4 +69,15 @@ aside {
 #toledo-zoo {
     display: inline-block;
     width: 30%;
+}
+/* form section */
+#form-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+/* form element */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
