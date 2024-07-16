@@ -46,6 +46,7 @@ section {
 /* article element */
 article {
     padding-left: 10%;
+    padding-bottom: 30px;
     font-family: Arial, sans-serif;
     float: left;
     width: 50%;
