@@ -22,4 +22,4 @@ jobs:
           server: d277ohioscottk.atwebpages.com
           username: 4506134_skellar
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./d277ohioscottk.atwebpages.com
+          local-dir: ./d277ohioscottk.atwebpages.com/
