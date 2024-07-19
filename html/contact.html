@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../img/favicon.ico">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Contact Ud</title>
+    <title>Contact Us</title>
+    <style>
+
+    </style>
 </head>
 <body>
 <header>
@@ -20,22 +23,30 @@
     <a href="toledo.html"><button type="button" class="nav-button">Toledo</button></a>
     <a href="contact.html"><button type="button" class="nav-button">Contact Us</button></a>
 </nav>
+<aside>
+    <h3>Did You Know?</h3>
+    <!-- https://ohio.gov/government/resources/what-is-a-buckeye#:~:text=The%20buckeye%20was%20named%20the,souvenirs%20out%20of%20buckeye%20wood. -->
+    <p>Ohio is known as the "Buckeye State" due to the prevalence of Ohio Buckeye trees.</p>
+</aside>
 <section id="form-section">
+    <div id="email-tip">
+        <p>Tip: Double-check your email before submitting!</p>
+    </div>
     <h2>Contact Us</h2>
     <p>Have a question about the great state of Ohio? Ask us here!</p>
-    <form onsubmit="return validateEmail()">
-        <label for="first-name">First Name:</label>
-        <input type="text" id="first-name" name="first-name" placeholder="First Name">
-        <label for="last-name">Last Name:</label>
-        <input type="text" id="last-name" name="last-name" placeholder="Last Name">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Email" required>
-        <label for="confirm-email">Confirm Email:</label>
-        <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirm Email" required>
-        <label for="question">Your Question:</label>
-        <textarea id="question" name="question" placeholder="Ask your question here" rows="4" required></textarea>
-        <button type="submit" class="nav-button">Submit</button>
-    </form>
+        <form onsubmit="return validateEmail()">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" placeholder="First Name">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <label for="confirm-email">Confirm Email:</label>
+            <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirm Email" required>
+            <label for="question">Your Question:</label>
+            <textarea id="question" name="question" placeholder="Ask your question here" rows="4" required></textarea>
+            <button type="submit" class="nav-button">Submit</button>
+        </form>
     <br>
 </section>
 </body>

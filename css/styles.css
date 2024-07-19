@@ -86,3 +86,21 @@ form {
     flex-direction: column;
     gap: 10px;
 }
+#seal-box {
+    position: absolute;
+    top: 50%;
+    right: 60%;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    z-index: 1000;
+}
+#email-tip {
+    position: relative;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
